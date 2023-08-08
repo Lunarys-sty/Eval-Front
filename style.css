@@ -266,6 +266,69 @@ p {
 
 /* End Hero Section */
 
+/* Event Modal */
+
+dialog {
+	width: 50%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 70px;
+	background-color: #132536;
+	background-image: url("img/outil-IA.avif");
+	background-size: cover;
+	background-position: top center;
+	font-family: "Roboto";
+	text-align: center;
+	border: none;
+	border-radius: 15px;
+	color: white;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+dialog::backdrop {
+	background-color: rgba(1, 40, 85, 0.199);
+}
+
+#modal h2 {
+	font-size: 30px;
+}
+
+#modal p {
+	font-size: 14px;
+	color: white;
+}
+
+#closemodal {
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid rgb(184, 212, 253);;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+
+.cta-event{
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid rgb(32, 226, 233);;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+
+/* End Event Modal */
+
+
 /* Services Section */
 #services .services {
 	flex-direction: column;

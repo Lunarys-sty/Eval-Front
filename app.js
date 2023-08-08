@@ -23,3 +23,17 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+var modal = document.querySelector("#modal")
+var openBtn = document.querySelector("#openmodal")
+var closeBtn = document.querySelector("#closemodal")
+
+openBtn.addEventListener("click", () => {
+	modal.showModal()
+	
+})
+
+closeBtn.addEventListener("click", () => {
+	modal.close()
+	
+})
